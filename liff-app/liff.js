@@ -1,7 +1,7 @@
 // User service UUID: Change this to your generated service UUID
 const USER_SERVICE_UUID         = 'CAEC25DF-4DE2-4C30-91E3-4A35510D04C6'; // LED, Button
 // User service characteristics
-const LED_CHARACTERISTIC_UUID   = '00001523-1212-EFDE-1523-785FEABCD123';
+const LED_CHARACTERISTIC_UUID   = '00001525-1212-EFDE-1523-785FEABCD123';
 const BTN_CHARACTERISTIC_UUID   = '00001524-1212-EFDE-1523-785FEABCD123';
 
 // PSDI Service UUID: Fixed value for Developer Trial
