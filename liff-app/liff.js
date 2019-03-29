@@ -211,10 +211,10 @@ function liffConnectToDevice(device) {
 
 function liffGetUserService(service) {
     // Button pressed state
-    /*service.getCharacteristic(BTN_CHARACTERISTIC_UUID).then(characteristic => {
+    service.getCharacteristic(BTN_CHARACTERISTIC_UUID).then(characteristic => {
         liffGetButtonStateCharacteristic(characteristic);
     }).catch(error => {
-        uiStatusError(makeErrorMsg(error), false);
+        uiStatusError(makeErrorMsg("BTN"+error), false);
     });
 
     // Toggle LED
@@ -224,8 +224,8 @@ function liffGetUserService(service) {
         // Switch off by default
         liffToggleDeviceLedState(false);
     }).catch(error => {
-        uiStatusError(makeErrorMsg(error), false);
-    });*/
+        uiStatusError(makeErrorMsg("LED"+error), false);
+    });
 }
 
 function liffGetPSDIService(service) {
@@ -238,7 +238,7 @@ function liffGetPSDIService(service) {
             .reduce((output, byte) => output + ("0" + byte.toString(16)).slice(-2), "");
         document.getElementById("device-psdi").innerText = psdi;
     }).catch(error => {
-        uiStatusError(makeErrorMsg(error), false);
+        uiStatusError(makeErrorMsg("PSDI"+error), false);
     });
 }
 
