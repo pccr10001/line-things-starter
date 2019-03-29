@@ -8,7 +8,7 @@ const BTN_CHARACTERISTIC_UUID   = '00001524-1212-EFDE-1523-785FEABCD123';
 const PSDI_SERVICE_UUID         = 'E625601E-9E55-4597-A598-76018A0D293D'; // Device ID
 const PSDI_CHARACTERISTIC_UUID  = '26E2B12B-85F0-4F3F-9FDD-91D114270E6E';
 
-$("#uuid").val(USER_SERVICE_UUID);
+$("#uuid").text(USER_SERVICE_UUID);
 
 // UI settings
 let ledState = false; // true: LED on, false: LED off
