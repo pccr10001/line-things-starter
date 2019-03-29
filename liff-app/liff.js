@@ -211,7 +211,7 @@ function liffConnectToDevice(device) {
 
 function liffGetUserService(service) {
     // Button pressed state
-    service.getCharacteristic(BTN_CHARACTERISTIC_UUID).then(characteristic => {
+    /*service.getCharacteristic(BTN_CHARACTERISTIC_UUID).then(characteristic => {
         liffGetButtonStateCharacteristic(characteristic);
     }).catch(error => {
         uiStatusError(makeErrorMsg(error), false);
@@ -225,7 +225,7 @@ function liffGetUserService(service) {
         liffToggleDeviceLedState(false);
     }).catch(error => {
         uiStatusError(makeErrorMsg(error), false);
-    });
+    });*/
 }
 
 function liffGetPSDIService(service) {
