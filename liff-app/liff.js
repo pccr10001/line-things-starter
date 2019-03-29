@@ -1,12 +1,12 @@
 // User service UUID: Change this to your generated service UUID
-const USER_SERVICE_UUID         = 'caec25df-4de2-4c30-91e3-4a35510d04c6'; // LED, Button
+const USER_SERVICE_UUID         = 'CAEC25DF-4DE2-4C30-91E3-4A35510D04C6'; // LED, Button
 // User service characteristics
-const LED_CHARACTERISTIC_UUID   = '00001523-1212-efde-1523-785feabcd123';
-const BTN_CHARACTERISTIC_UUID   = '00001524-1212-efde-1523-785feabcd123';
+const LED_CHARACTERISTIC_UUID   = '00001523-1212-EFDE-1523-785FEABCD123';
+const BTN_CHARACTERISTIC_UUID   = '00001524-1212-EFDE-1523-785FEABCD123';
 
 // PSDI Service UUID: Fixed value for Developer Trial
-const PSDI_SERVICE_UUID         = 'e625601e-9e55-4597-a598-76018a0d293d'; // Device ID
-const PSDI_CHARACTERISTIC_UUID  = '26e2b12b-85f0-4f3f-9fdd-91d114270e6e';
+const PSDI_SERVICE_UUID         = 'E625601E-9E55-4597-A598-76018A0D293D'; // Device ID
+const PSDI_CHARACTERISTIC_UUID  = '26E2B12B-85F0-4F3F-9FDD-91D114270E6E';
 
 // UI settings
 let ledState = false; // true: LED on, false: LED off
